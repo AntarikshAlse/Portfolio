@@ -20,7 +20,7 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
-
+    text-align: center;
 }
 
 .container-center{
@@ -118,9 +118,13 @@ hr{
 
 .section h1 {
     text-align: center;
-    padding:2rem;
+    padding:1.2rem;
+    margin-bottom: 0;
 }
-
+.section p{
+    margin:1rem auto;
+    
+}
 .off-white {
     background-color:var(--off-white); 
 }
