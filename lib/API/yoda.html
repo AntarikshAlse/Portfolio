@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoda Translator</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+        body{
+            font-family: 'Open Sans', sans-serif;
+            background-image: url(./star-wars-logo.jpg);
+            background-repeat: no-repeat;
+           
+        }
+        img{
+    max-width: 350px;
+    display: block;
+    opacity: 70%;
+        }
+
+        nav,footer{
+        background-color: rgba(0, 0, 0, 0.966);
+        color:#b1ee0b;
+        padding: 2rem;
+        text-align: center;
+       
+    
+        }
+       
+        h1,h2{
+            font-family: 'Open Sans', sans-serif;;
+            letter-spacing:4px;
+            font-size:40px;
+    
+            
+        }
+        .button{
+            text-align: center;
+        }
+        button{
+        text-align: center; 
+        padding: 1rem 6rem;
+        background-color: #b1ee0b;
+        color:#1a7e17;
+        font-weight: bold;
+        border: none;
+        border-radius: 0.5rem;
+        }
+
+        /* inuput box */
+        .input{
+            text-align: center;
+        }
+        textarea{
+            width: 70%;
+            height: 20vh;
+            padding: 1rem;
+            margin: 1rem ;
+            border:1px solid #1a7e17;
+            background-color: black;
+            opacity: 70%;
+            color:white;
+        }
+        /* output box */
+        #bn-output{
+            width: 70%;
+            height: 20vh;
+            padding: 1rem;
+            margin: 1rem auto;
+            display: block;
+            border:1px solid #1a7e17;
+            color:white;
+            box-shadow: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+     <h1>Yoda Translator</h1>
+    </nav>
+    <div class="input">
+    <img src="./yoda.jpg" placeholder="yoda image">
+    <textarea id="input" placeholder="write here to translate to yoda language"></textarea><br>
+    </div>
+    <div class="button">
+        <button id="btn-translate">Translate</button>
+    </div>
+
+    <div id="bn-output"></div><br>
+
+    <script src="yoda-app.js"></script>
+    <footer>
+        <h2>Divyashakti!! aap ke saath rahe.</h2>
+    </footer>
+</body>
+</html>

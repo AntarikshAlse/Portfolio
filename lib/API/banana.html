@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Translator</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+        body{
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        nav,footer{
+    background-color: black;
+    color:#ffe342;
+    padding: 2rem;
+    text-align: center;
+    
+        }
+        /* footer{
+            position:fixed;
+            bottom:0;
+        } */
+        h1,h2{
+            font-family: 'Josefin Sans', sans-serif;
+            letter-spacing:4px;
+            font-size:x-large;
+            
+        }
+        .button{
+            text-align: center;
+        }
+    button{
+     text-align: center; 
+    padding: 1rem 6rem;
+    background-color: #ffe342;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+        }
+
+        /* inuput box */
+        textarea{
+            width: 80%;
+            height: 10vh;
+            padding: 1rem;
+            margin: 1rem;
+            text-align: center;
+            border:1px solid #ffe342;
+        }
+        /* output box */
+        #bn-output{
+            width: 80%;
+            height: 10vh;
+            padding: 1rem;
+            margin: 1rem;
+            display: block;
+            border:1px solid #ffe342;
+            text-align: center;
+            box-shadow: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+     <h1>Banana Translator</h1>
+    </nav>
+    <textarea id="input" placeholder="write here to translate to bananaa"></textarea><br>
+    <div class="button">
+        <button id="btn-translate">Translate</button>
+    </div>
+
+    <div id="bn-output"></div><br>
+
+    <script src="banana-app.js"></script>
+    <footer>
+        <h2>About</h2>
+        <p>This is the minion translator app,an English to gibberish translation (Spoken in the movie minions.) </p>
+    </footer>
+</body>
+</html>
