@@ -20,7 +20,12 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
+    /* text-align: center; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding: 1rem;
+    box-shadow:#687886;
+    
 }
 
 .container-center{
@@ -39,6 +44,8 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    display:inline-flex;
+    margin-right: .5em;
 }
 
 .links-secondary{
@@ -71,14 +78,12 @@ hr{
 
 .navigation .nav-brand{
     font-weight:bold;
-    font-size:1.2rem;
-}
-.nav-brand{
+    font-size:1.8rem;
     float:left;
     padding-left: 30px; 
-    margin-top:15px;
-}
+    margin-top:8px;
 
+}
 .navigation .nav-pills{
     text-align: right;
 }
@@ -122,8 +127,6 @@ hr{
 }
 
 .section h1 {
-    text-align: center;
-    padding:1.2rem;
     margin-bottom: 0;
 }
 .section p{
