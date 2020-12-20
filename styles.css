@@ -11,23 +11,20 @@ body{
     margin: 0px;
 }
 
-.model-2 img {
-    width:70%;
-    height: auto;
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
-
-/* .about-me {
-    display: inline-flex;
-    margin: auto;
-    max-width: 90%;
-    margin-top: 4rem;
-    margin-bottom: 0rem;
+.about-img img{
+    max-width: 320px;
+    flex-grow: 1;
 }
-.about-me-text {
-    margin: 1 em 0;
-    padding: 3rem;
-    text-align: center;
-} */
+.about-text {
+    box-sizing: border-box;
+    max-width:320px;
+    flex-grow: 2;
+}
 hr{
     margin: 2rem 0rem ;
 }
@@ -79,6 +76,7 @@ hr{
 
 .list-item-inline{ 
     display: inline;
+    color:white;
     padding: 0rem 0.5rem;
 }
 
@@ -116,13 +114,13 @@ hr{
 }
 
 .hero .hero-image{
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
 
 .blog-image{
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
